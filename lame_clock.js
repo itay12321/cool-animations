@@ -22,7 +22,7 @@ function draw() {
   let xmn = cos(alphamn) * 65;
   let ymn = sin(alphamn) * 65;
   line(0,0,xmn,ymn);
-  let alphahr = map(hr % 12 - 3, 0, 12, 0, TWO_PI);
+  let alphahr = map(hr % 12 - 3 + mn / 60, 0, 12, 0, TWO_PI);
   let xhr = cos(alphahr) * 45;
   let yhr = sin(alphahr) * 45;
   line(0,0,xhr,yhr);
