@@ -11,8 +11,8 @@ function draw() {
   strokeWeight(5);
   circle(0,0,90);
   
-  let sc = 10*second();
-  let mn = minute();
+  let sc = 10;//*second();
+  let mn = 10;//minute();
   let hr = hour();
   let alphasc = map(sc -15, 0, 60, 0, TWO_PI);
   let xsc = cos(alphasc) * 85;
