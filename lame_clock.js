@@ -11,7 +11,7 @@ function draw() {
   strokeWeight(5);
   circle(0,0,90);
   
-  let sc = second();
+  let sc = 10*second();
   let mn = minute();
   let hr = hour();
   let alphasc = map(sc -15, 0, 60, 0, TWO_PI);
